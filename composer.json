@@ -1,0 +1,21 @@
+{
+  "name": "crewcharge/core",
+  "type": "library",
+  "description": "Crewcharge is a customer analytics, customer success tool for SaaS companies. The core package allows logging triggers and performing user crud operations within Crewcharge",
+  "homepage": "https://github.com/crewcharge/core-integration-helper-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bharadwaj Giridhar",
+      "email": "crewcharge@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crewcharge\\": "src/"
+    }
+  }
+}
