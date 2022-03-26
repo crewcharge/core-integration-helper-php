@@ -60,7 +60,7 @@ class CrewchargeCore
             $curl = curl_init();
 
             $payload = array("attributes"=>$attributes, 
-            "crewcharge_preferences"=>$privacy_preferences, 
+            "privacy_preferences"=>$privacy_preferences, 
             "test_user"=>$test_user,
             "uid_hashed"=>$uid_hashed);
 
